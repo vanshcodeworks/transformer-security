@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Trained weights are 175 MB. Regenerate with train.py rather than committing.
+*.pt
+*.pth
+*.ckpt
+
+# Dataset is 44 MB of scraped vulnerability records. Not redistributable.
+*.csv
+data/
+datasets/
+
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
+.vscode/
+.idea/
